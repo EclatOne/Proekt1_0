@@ -1,0 +1,7 @@
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\bin\Debug\Proekt1_0.exe.config
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\bin\Debug\Proekt1_0.exe
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\bin\Debug\Proekt1_0.pdb
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\obj\Debug\Proekt1_0.csprojResolveAssemblyReference.cache
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\obj\Debug\Proekt1_0.csproj.CoreCompileInputs.cache
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\obj\Debug\Proekt1_0.exe
+D:\Практика\Proekt1_0\Proekt1_0\Proekt1_0\obj\Debug\Proekt1_0.pdb
