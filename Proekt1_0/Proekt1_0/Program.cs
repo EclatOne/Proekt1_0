@@ -10,6 +10,14 @@ namespace Proekt1_0
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Hallo World");
+			Console.ReadKey();
 		}
+	}
+	class Strana
+	{
+		public string Nazvanie {get; set;}
+		public string FormaPravlenie { get; set; }
+		public float Plojad { get; set; }
 	}
 }
