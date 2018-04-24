@@ -7,34 +7,34 @@ using System.Threading.Tasks;
 namespace Proekt1_0
 {
 	/// <summary>
-	/// класс Страна где описаны наши переменные 
+	/// класс Страна где описаны наши переменные
 	/// </summary>
-	class Strana
+	class Country
 	{ 
-		public string Nazvanie { get; set; }
-		public string FormaPravlenie { get; set; }  
-		public float Plojad { get; set; }
+		public string Name { get; set; }
+		public string FormOfGovernment { get; set; }  
+		public float Area { get; set; }
 		/// <summary>
 		/// Конструктор с параметрами
 		/// </summary>
-		/// <param name="nazvanie"></param>
-		/// <param name="formaPravlenie"></param>
-		/// <param name="plojad"></param>
-		public Strana (string nazvanie, string formaPravlenie, float plojad) 
+		/// <param name="Name"></param>
+		/// <param name="FormOfGovernment"></param>
+		/// <param name="Area"></param>
+		public Country (string name, string formOfGovernment, float area) 
 		{
-			Nazvanie = nazvanie;
-			FormaPravlenie = formaPravlenie;
-			Plojad = plojad;
+			Name = name;
+			FormOfGovernment = formOfGovernment;
+			Area = area;
 
 		}
 		/// <summary>
 		/// Конструктор без параметра
 		/// </summary>
-		public Strana() 
+		public Country() 
 		{
-			Nazvanie = "";
-			FormaPravlenie = "";
-			Plojad = 0;
+			Name = "";
+			FormOfGovernment = "";
+			Area = 0;
 		}
 		/// <summary>
 		/// Метод вызова конструктора по умолчанию
@@ -51,7 +51,7 @@ namespace Proekt1_0
 		/// <returns></returns>
 		public override string ToString() 
 		{
-			return String.Format("Название: {0} Форма правления: {1} Площадь: {2}", Nazvanie, FormaPravlenie, Plojad);
+			return String.Format("Название: {0} Форма правления: {1} Площадь: {2}", Name, FormOfGovernment, Area);
 		}
 
 	}
@@ -62,10 +62,10 @@ namespace Proekt1_0
 	{
 		static void Main(string[] args) 
 		{
-			Strana strana = new Strana();
-			Console.WriteLine("Первая страна " + strana);
-			Strana strana1 = new Strana("Беларусь","Республика",100);
-			Console.WriteLine("Первая страна " + strana1);
+			Country Country = new Country();
+			Console.WriteLine("Первая страна " + Country);
+			Country Country1 = new Country("Беларусь","Республика",100);
+			Console.WriteLine("Первая страна " + Country1);
 			Console.ReadKey();
 		}
 	}
